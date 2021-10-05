@@ -15,6 +15,8 @@ class API_WEATHER {
     // Si la ville n'est pas définit alors la ville par défault est Paris
     if (city === "") {
       city = "Paris";
+      document.getElementById('city-input').value = "Paris";
+
     }
     this.city = city;
   }
